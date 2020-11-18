@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //aqui se implementan los delegados
+        
         manager.delegate = self
         manager.requestWhenInUseAuthorization()
         
@@ -53,6 +55,8 @@ class ViewController: UIViewController {
     
 }
 
+
+//Utiliza los Delegados de ClLocation
 extension ViewController: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
