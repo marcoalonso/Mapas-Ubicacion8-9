@@ -55,7 +55,7 @@ extension SearchBarViewController: UISearchBarDelegate {
                 
             } else {
                 
-                print("Ubicacion no encontrada!")
+                print("Ubicacion no localizada")
                 
             }
             
